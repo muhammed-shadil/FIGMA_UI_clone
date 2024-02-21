@@ -14,9 +14,9 @@ class _HomeScreenState extends State<HomeScreen> {
   int _currentIndex = 0;
   List<Widget> pages = [
     Home(),
-    const OrderPage(),
+     OrderPage(),
     Home(),
-    const OrderPage(),
+    OrderPage(),
     const Profiles(),
   ];
 
